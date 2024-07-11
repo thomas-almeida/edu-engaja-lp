@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Edu Engaja</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
 
-    <nav id="top" class="flex items-center justify-center">
+    <nav id="top" class="flex items-center justify-center flex-wrap">
         <div class="w-[60%]">
             <img src="src/img/logo.png" alt="logo do edu engaja" class="w-[200px]">
         </div>
@@ -26,9 +27,9 @@
         </div>
     </nav>
     <main>
-        <div class="h-[100vh] flex items-center justify-center p-14">
+        <div class="h-[100vh] flex items-center justify-center flex-wrap p-14 cover-banner">
             <div>
-                <h1 class="text-5xl font-bold leading-[120%] w-[500px]">Como sua Escola lida com Retenção de 
+                <h1 class="text-5xl font-bold leading-[120%] w-[500px] responsive-title">Como sua Escola lida com Retenção de 
                     <b class="text-[#00bf63] font-bold">Matriculas</b>
                     e <b class="text-[#5271ff] font-bold">Visitas</b>?</h1>
                 <p class="w-[500px] my-4 text-lg">
@@ -45,9 +46,9 @@
                 class="w-[650px] mx-10 transition hover:scale-110">
         </div>
         <div class="bg-[#0068ff] flex items-center justify-center py-14 text-white">
-            <div class="w-[65%]">
+            <div class="w-[65%] features-container">
                 <div>
-                    <h2 class="text-5xl font-bold leading-[120%] text-center">
+                    <h2 class="text-5xl font-bold leading-[120%] text-center responsive-title">
                         Matrículas Engajadas = <b class="text-[#11ff5a]">+FATURAMENTO</b>
                     </h2>
                     <p class="text-center text-lg py-4">
@@ -57,7 +58,7 @@
                         análise de dados assertiva
                     </p>
                 </div>
-                <div class="grid grid-cols-3 items-center justify-center py-6">
+                <div class="grid grid-cols-3 items-center justify-center py-6 features">
                     <div
                         class="bg-[#fff] text-black p-4 rounded transition hover:scale-[1.06] m-2 h-[180px] cursor-pointer">
                         <h3 class="text-xl pb-3 font-semibold">Gestão de Matriculas</h3>
@@ -118,7 +119,7 @@
         <div class="flex items-center justify-center text-center py-16">
             <div class="w-[90%]">
                 <div>
-                    <h2 class="text-5xl font-bold leading-[120%] text-center pb-4">
+                    <h2 class="text-5xl font-bold leading-[120%] text-center pb-4 responsive-title">
                         Como Resolvemos Esse Problema ?
                     </h2>
                     <p class="text-xl">
@@ -183,11 +184,11 @@
                 </div>
             </div>
         </div>
-        <div class="flex items-center justify-center text-center py-16 bg-[#0068ff] text-white">
+        <div class="flex items-center justify-center text-center py-16 bg-[#0068ff] text-white report">
             <div class="w-[60%] text-center">
 
                 <div class="flex justify-center items-center">
-                    <h2 class="text-5xl font-bold italic my-12 w-[80%]">
+                    <h2 class="text-5xl font-bold italic my-12 w-[80%] report">
                         “Já resolvemos muitos problemas de retenção, principalmente na pandemia, agora é nossa vez de
                         ajudar
                         mais redes e escolas a alavancarem essa métrica tão desafiadora”
@@ -219,7 +220,7 @@
     </main>
 </body>
 <footer>
-    <div class="p-10 flex items-center justify-center text-center px-12">
+    <div class="p-10 flex items-center justify-center text-center px-12 footer-info">
         <div class="text-left">
             <h4 class="font-bold text-xl py-2">Edu.Engaja é um produto JN Tech</h4>
             <p class="w-[70%] text-md">

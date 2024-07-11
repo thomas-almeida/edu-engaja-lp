@@ -1,5 +1,65 @@
-body{
- position: absolute;
- top: 10px;
- 
+@media (max-width: 800px) {
+
+    .cover-banner img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .cover-banner h1 {
+        width: auto;
+        height: auto !important;
+        text-align: left !important;
+    }
+
+    .cover-banner p {
+        width: auto;
+    }
+
+    .features-container {
+        width: 85%;
+    }
+
+    .features {
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .features div {
+        height: auto;
+    }
+
+    .responsive-title {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    #btn {
+        display: none !important;
+    }
+
+    .report h2 {
+        font-size: 1.6em;
+        width: auto;
+    }
+
+    .report > div {
+        width: 90%;
+    }
+
+    .report img {
+        width: 150px;
+    }
+
+    .footer-info {
+        display: block;
+        text-align: left;
+    }
+
+    .footer-info p {
+        width: auto;
+    }
+
+    .footer-info button  {
+        margin-top: 20px;
+    }
+
 }
