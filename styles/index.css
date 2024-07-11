@@ -2,13 +2,22 @@
 
     .cover-banner img {
         margin-top: 20px;
+        margin-bottom: 20px !important;
         width: 100%;
+    }
+
+    .cover-banner {
+        padding: 2rem !important;
     }
 
     .cover-banner h1 {
         width: auto;
-        height: auto !important;
+        font-size: 2em !important;
         text-align: left !important;
+    }
+
+    nav > div {
+        width: auto !important;
     }
 
     .cover-banner p {
@@ -16,11 +25,11 @@
     }
 
     .features-container {
-        width: 85%;
+        width: 85% !important;
     }
 
     .features {
-        grid-template-columns: repeat(1, 2fr);
+        grid-template-columns: repeat(1, 2fr) !important;
     }
 
     .features div {
@@ -29,7 +38,7 @@
 
     .responsive-title {
         text-align: center;
-        font-size: 2em;
+        font-size: 2em !important;
     }
 
     #btn {
@@ -50,16 +59,16 @@
     }
 
     .footer-info {
-        display: block;
-        text-align: left;
+        display: block !important;
+        text-align: left !important;
     }
 
     .footer-info p {
-        width: auto;
+        width: auto !important;
     }
 
     .footer-info button  {
-        margin-top: 20px;
+        margin-top: 20px !important;
     }
 
 }
